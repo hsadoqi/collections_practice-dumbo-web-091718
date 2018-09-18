@@ -10,7 +10,7 @@ end
 
 def sort_array_char_count(str_array)
   #return copy of array with strings in ascending order by length
-  str_array.length.sort
+  str_array.sort_by {|x| x.length}
 end
 
 def swap_elements(array)
