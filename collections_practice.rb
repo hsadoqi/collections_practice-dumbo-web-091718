@@ -27,10 +27,11 @@ end
 def kesha_maker(str_array)
   #replaces third character in each string with a $
   #use .each method to iterate and build a new array
+  new_array = []
   str_array.each do |element|
     element.chars
+    new_array << element
   end
-  str_array
 end
 
 def find_a(str_array)
