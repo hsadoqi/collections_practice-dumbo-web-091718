@@ -30,7 +30,7 @@ def kesha_maker(str_array)
   new_array = []
   str_array.each do |element|
     element.chars
-    new_array << element
+   
   end
 end
 
