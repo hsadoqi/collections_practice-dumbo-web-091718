@@ -46,7 +46,7 @@ end
 
 def sum_array(int_array)
   #adds together all integers in array and returns sum
-  sum_array.inject(0) {|result, element| result + element}
+  int_array.inject(0) {|result, element| result + element}
 end
 
 def add_s(array)
