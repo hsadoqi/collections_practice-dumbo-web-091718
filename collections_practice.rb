@@ -29,7 +29,7 @@ def kesha_maker(str_array)
   #use .each method to iterate and build a new array
   new_array = []
   str_array.each do |element|
-    new_array << element.gsub([2], '$')
+    
   end
   new_array
 end
