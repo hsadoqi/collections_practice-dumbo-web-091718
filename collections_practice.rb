@@ -29,9 +29,9 @@ def kesha_maker(str_array)
   #use .each method to iterate and build a new array
   str_array.each do |element|
     element.split.to_a
-    element[2]
+    element[2].gsub('$')
   end
-  
+  return str_array
 end
 
 def find_a(str_array)
