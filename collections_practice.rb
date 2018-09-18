@@ -28,7 +28,7 @@ def kesha_maker(str_array)
   #replaces third character in each string with a $
   #use .each method to iterate and build a new array
   str_array.each do |element|
-    element.split
+    element.chars
   end
   str_array
 end
