@@ -35,6 +35,9 @@ end
 
 def find_a(str_array)
   #return all srings that start with the letter 'a'
+  str_array.each do |element|
+    if element.start_with?('a')
+      
 end
 
 def sum_array(int_array)
