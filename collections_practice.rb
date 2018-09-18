@@ -1,6 +1,6 @@
 def sort_array_asc(int_array)
   #return copy of array with integers in ascending order
-  int_array.sort.reverse
+  int_array.sort
 end
 
 def sort_array_desc(int_array)
