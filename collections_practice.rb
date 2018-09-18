@@ -53,7 +53,7 @@ def add_s(array)
   #adds 's' to end of word in array except for second element
   #try to use .each_with_index and .collect
   array.each_with_index do |val, index|
-    puts val + 's' if index != 1
+    val + 's' if index != 1
   end 
 end 
 
