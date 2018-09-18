@@ -30,6 +30,7 @@ def kesha_maker(str_array)
   str_array.each do |element|
     element.split.to_a
   end
+  str_array
 end
 
 def find_a(str_array)
