@@ -5,6 +5,7 @@ end
 
 def sort_array_desc(int_array)
   #return copy of array with integers in descending order
+  int_array.sort.reverse
 end
 
 def sort_array_char_count(str_array)
