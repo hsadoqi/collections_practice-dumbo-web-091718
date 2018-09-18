@@ -21,6 +21,7 @@ end
 
 def reverse_array(int_array)
   #return copy with elements in reverse order
+  int_array.reverse
 end
 
 def kesha_maker(str_array)
