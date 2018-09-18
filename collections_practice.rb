@@ -40,6 +40,7 @@ def find_a(str_array)
     if element.start_with?('a')
       new_array.push(element)
     end
+  end
     new_array
 end
 
